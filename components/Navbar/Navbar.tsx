@@ -58,7 +58,7 @@ const Navbar = () => {
               Wishlist <CiHeart className="text-lg" />
             </span>
           </Link>
-          <Link href={''}>
+          <Link href={'/cart'}>
             <span className={styles.name_and_icon}>
               Cart <FaOpencart className="text-lg" />
             </span>
