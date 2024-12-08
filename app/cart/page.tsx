@@ -1,67 +1,10 @@
-'use client'
 import styles from './cart.module.css'
 // import Link from 'next/link'
 // import Image from 'next/image'
 import Navbar from '@/components/Navbar/Navbar'
 import Footer from '@/components/Footer/Footer'
-import React, { useState } from "react";
 
-type Product = {
-  id: number;
-  name: string;
-  color: string;
-  size: string;
-  price: number;
-  quantity: number;
-  image: string;
-};
 const page = () => {
-
-// Sample product data
-const [cartItems, setCartItems] = useState<Product[]>([
-    {
-      id: 1,
-      name: "Ur atom consequat",
-      color: "Brown",
-      size: "XL",
-      price: 53.0,
-      quantity: 1,
-      image: "https://via.placeholder.com/60",
-    },
-    {
-      id: 2,
-      name: "Vel faucibus posuere",
-      color: "Brown",
-      size: "XL",
-      price: 53.0,
-      quantity: 1,
-      image: "https://via.placeholder.com/60",
-    },
-  ]);
-
-  // Calculate subtotal and total
-  const subtotal = cartItems.reduce(
-    (sum, item) => sum + item.price * item.quantity,
-    0
-  );
-
-  const total = subtotal + 10; // Add fixed shipping cost or taxes
-
-  // Handle quantity change
-  const handleQuantityChange = (id: number, quantity: number) => {
-    const updatedItems = cartItems.map((item) =>
-      item.id === id ? { ...item, quantity: quantity > 0 ? quantity : 1 } : item
-    );
-    setCartItems(updatedItems);
-  };
-
-  // Clear cart
-  const handleClearCart = () => {
-    setCartItems([]);
-  };
-
-
-
   return (
     <div>
     <Navbar/>
@@ -73,6 +16,7 @@ const [cartItems, setCartItems] = useState<Product[]>([
       </div>
       <div className={styles.main_container}>
       <div className="container mx-auto px-4 py-8">
+      {/* Shopping Cart Section */}
       <div className="grid lg:grid-cols-3 gap-8">
         {/* Cart Table */}
         <div className="lg:col-span-2">
@@ -86,50 +30,37 @@ const [cartItems, setCartItems] = useState<Product[]>([
               </tr>
             </thead>
             <tbody className="bg-white divide-y">
-              {cartItems.map((item) => (
-                <tr key={item.id}>
-                  <td className="p-4 flex items-center">
-                    <img
-                      src={item.image}
-                      alt={item.name}
-                      className="w-12 h-12 rounded-md mr-4"
-                    />
-                    <div>
-                      <h3 className="font-bold">{item.name}</h3>
-                      <p className="text-sm text-gray-500">
-                        Color: {item.color}, Size: {item.size}
-                      </p>
-                    </div>
-                  </td>
-                  <td className="p-4">${item.price.toFixed(2)}</td>
-                  <td className="p-4">
-                    <input
-                      type="number"
-                      value={item.quantity}
-                      onChange={(e) =>
-                        handleQuantityChange(item.id, parseInt(e.target.value))
-                      }
-                      className="w-16 px-2 py-1 border rounded"
-                    />
-                  </td>
-                  <td className="p-4">
-                    ${(item.price * item.quantity).toFixed(2)}
-                  </td>
-                </tr>
-              ))}
+              {/* Example Row */}
+              <tr>
+                <td className="p-4 flex items-center">
+                  <img
+                    src="https://via.placeholder.com/60"
+                    alt="Product"
+                    className="w-12 h-12 rounded-md mr-4"
+                  />
+                  <div>
+                    <h3 className="font-bold">Ur atom consequat</h3>
+                    <p className="text-sm text-gray-500">Color: Brown, Size: XL</p>
+                  </div>
+                </td>
+                <td className="p-4">$53.00</td>
+                <td className="p-4">
+                  <input
+                    type="number"
+                    defaultValue={1}
+                    className="w-16 px-2 py-1 border rounded"
+                  />
+                </td>
+                <td className="p-4">$53.00</td>
+              </tr>
+              {/* Add more rows as needed */}
             </tbody>
           </table>
           <div className="flex justify-between mt-4">
-            <button
-              className="bg-pink-500 text-white px-6 py-2 rounded hover:bg-pink-600"
-              onClick={() => alert("Cart updated!")}
-            >
+            <button className="bg-pink-500 text-white px-6 py-2 rounded hover:bg-pink-600">
               Update Cart
             </button>
-            <button
-              className="bg-red-500 text-white px-6 py-2 rounded hover:bg-red-600"
-              onClick={handleClearCart}
-            >
+            <button className="bg-red-500 text-white px-6 py-2 rounded hover:bg-red-600">
               Clear Cart
             </button>
           </div>
@@ -142,11 +73,11 @@ const [cartItems, setCartItems] = useState<Product[]>([
             <h2 className="text-lg font-bold mb-4">Cart Totals</h2>
             <div className="flex justify-between mb-2">
               <p>Subtotals:</p>
-              <p className="font-bold">£{subtotal.toFixed(2)}</p>
+              <p className="font-bold">£219.00</p>
             </div>
             <div className="flex justify-between mb-4">
               <p>Totals:</p>
-              <p className="font-bold">£{total.toFixed(2)}</p>
+              <p className="font-bold">£325.00</p>
             </div>
             <p className="text-sm text-gray-500 mb-4">
               Shipping & taxes calculated at checkout.
@@ -158,16 +89,16 @@ const [cartItems, setCartItems] = useState<Product[]>([
 
           {/* Calculate Shipping */}
           <div className="p-6 bg-white rounded shadow">
-            <h2 className="text-lg font-bold mb-4">Calculate Shipping</h2>
+            <h2 className="text-lg font-bold mb-4">Calculate Shopping</h2>
             <form className="space-y-4">
               <input
                 type="text"
-                placeholder="Country"
+                placeholder="Bangladesh"
                 className="w-full px-4 py-2 border rounded"
               />
               <input
                 type="text"
-                placeholder="City"
+                placeholder="Mirpur Dhaka - 1200"
                 className="w-full px-4 py-2 border rounded"
               />
               <input
