@@ -16,13 +16,13 @@
     width: 50%;
     /* border: 1px solid black; */
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
 }.div_right{
     width: 50%;    
     /* border: 1px solid black; */
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 }
 .details_containar{

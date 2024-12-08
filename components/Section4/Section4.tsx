@@ -5,7 +5,7 @@ const Section4 = () => {
   return (
     <div className={styles.main_containar}>
     <div className={styles.containar}>
-    <div className={styles.div_left}><Image src={'/images/file-sex/right-img.png'} alt='img' height={100} width={600}/></div>
+    <div className={styles.div_left}><Image src={'/images/file-four/left-img.png'} alt='img' height={100} width={500}/></div>
 
       <div className={styles.div_right}>
         <div className={styles.details_containar}>

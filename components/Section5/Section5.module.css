@@ -1,4 +1,8 @@
-.main_containar{
-    border: 1px solid black;
-    height: 100vh;
+.main_container{
+    /* border: 1px solid black; */
+    height: 100%;
+    padding: 20px 70px;
+}
+.container{
+    padding: 20px;
 }

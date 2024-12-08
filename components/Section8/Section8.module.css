@@ -1,6 +1,6 @@
 .main_containar{
     /* border: 1px solid black; */
-    padding: 50px 0;
+    padding: 40px 0;
 }
 .containar{
     /* border: 1px solid red; */
@@ -11,7 +11,7 @@
 }
 .upper_div{
     /* border: 1px solid black; */
-    height: 70vh;
+    height: 80vh;
     background-image: url('/images/file-eight/bg-img.png');
     background-repeat: no-repeat;
     background-position: center;

@@ -19,7 +19,7 @@ const Navbar = () => {
   return (
     <div className={styles.main_container}>
       <div className={styles.container}>
-        {/* Upper Portion */}
+
         <div className={styles.upper_portion}>
           <div className={styles.upper_portion_div_one}>
             <span className={styles.name_and_icon}>
@@ -48,15 +48,21 @@ const Navbar = () => {
                 <option value="IRA">IRA</option>
               </select>
             </span>
+          <Link href={'/login'}>
             <span className={styles.name_and_icon}>
-              Login <IoIosContact className="text-lg" />
+              signup <IoIosContact className="text-lg" />
             </span>
+          </Link>
+          <Link href={''}>
             <span className={styles.name_and_icon}>
               Wishlist <CiHeart className="text-lg" />
             </span>
+          </Link>
+          <Link href={''}>
             <span className={styles.name_and_icon}>
               Cart <FaOpencart className="text-lg" />
             </span>
+          </Link>
           </div>
         </div>
 
@@ -92,7 +98,6 @@ const Navbar = () => {
             </form>
           </div>
 
-          {/* Hamburger Menu */}
           <div className={styles.hamburger} onClick={toggleMenu}>
             {isMenuOpen ? <AiOutlineClose size={24} /> : <AiOutlineMenu size={24} />}
           </div>
