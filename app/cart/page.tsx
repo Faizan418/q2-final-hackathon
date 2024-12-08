@@ -8,9 +8,9 @@ const page = () => {
       <Navbar />
       <div className={styles.abcd}>
         <div className={styles.efgh}>
-          <h1 className="text-4xl font-semibold">Blog</h1>
+          <h1 className="text-4xl font-semibold">Cart List</h1>
           <p className="font-semibold">
-            Home . page <span className="text-rose-600 font-bold">. blog</span>
+            Home . page <span className="text-rose-600 font-bold">. cart list</span>
           </p>
         </div>
       </div>
