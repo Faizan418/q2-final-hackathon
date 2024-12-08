@@ -1,5 +1,10 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+
+Create a E-commerce website. This is over GIAIC Quarter 2 final Hackathon Project... 
+Giving by Sir, Ameen Aalam
+
+
 ## Getting Started
 
 First, run the development server:
