@@ -47,7 +47,6 @@
     justify-items: center;
   }
   ._card_dec_box{
-    /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
     padding: 2px 10px;
@@ -55,7 +54,6 @@
   ._card_dec_name {
     color: rgb(61, 61, 61);
     font-size: smaller;
-    /* padding-left: 10px; */
   }
   ._card_dec_price {
     color: green;

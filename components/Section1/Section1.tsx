@@ -1,5 +1,5 @@
-import styles from './Section1.module.css'
-import Image from 'next/image'
+import styles from "./Section1.module.css";
+import Image from "next/image";
 
 const Section1 = () => {
   return (
@@ -73,11 +73,10 @@ const Section1 = () => {
               <p className={styles._card_dec_price}>$42.00</p>
             </div>
           </div>
-
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Section1
+export default Section1;
