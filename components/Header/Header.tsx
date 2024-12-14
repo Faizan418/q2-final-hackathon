@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./Header.module.css";
+import Link from "next/link";
 const Header = () => {
   return (
     <div className={styles.main_containar}>
@@ -24,9 +25,11 @@ const Header = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing <br /> elit.
             Nobis sunt enim blanditiis possimus a voluptatibus distinctio?
           </p>
-          <button className="py-2 px-6 bg-rose-600 text-slate-50" type="button">
+          <Link href={''}>
+          <button className="py-2 px-6 bg-rose-600 text-slate-50 hover:bg-red-600" type="button">
             Shop Now
           </button>
+          </Link>
         </div>
 
         <div className={styles.right_img_div}>

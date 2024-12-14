@@ -55,7 +55,7 @@ const Navbar = () => {
                 signup <IoIosContact className="text-lg" />
               </span>
             </Link>
-            <Link href={""}>
+            <Link href={"123"}>
               <span className={styles.name_and_icon}>
                 Wishlist <CiHeart className="text-lg" />
               </span>

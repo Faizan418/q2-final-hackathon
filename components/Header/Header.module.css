@@ -1,9 +1,11 @@
 .main_containar {
-  height: 100%;
+  /* height: 90%; */
+  /* border: 1px solid black; */
   background-image: url("/images/file-header/full-img.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 0px 100px;
+
 }
 .containar {
   height: 100%;

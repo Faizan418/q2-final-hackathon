@@ -1,6 +1,6 @@
 import styles from './Section6.module.css'
 import Image from 'next/image'
-// import Link from 'next/link'
+import Link from 'next/link'
 const Section6 = () => {
   return (
     <div className={styles.main_containar}>
@@ -25,9 +25,11 @@ const Section6 = () => {
 
                   </div>
                 </div>
+                  <Link href={"/login"}>
                 <div className={styles.btn_div}>
                     <button className={styles.btn1} type="button">Login</button>
                 </div>
+                  </Link>
                </div> 
             </div>
 

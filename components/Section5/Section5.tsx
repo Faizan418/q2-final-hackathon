@@ -18,6 +18,7 @@ const Section5 = () => {
             <h2 className="font-semibold">Cantilever Chair</h2>
             <p className="text-gray-500 line-through">$100.00</p>
             <p className="text-blue-800 font-bold">$90.00</p>
+            <a href="#" className="text-red-600 underline font-medium hover:text-teal-500">Shop Now</a>
           </div>
           <div className="bg-white shadow-md rounded-lg p-3 text-center">
             <Image
@@ -30,6 +31,7 @@ const Section5 = () => {
             <h2 className="font-semibold">Cantilever Chair</h2>
             <p className="text-gray-500 line-through">$100.00</p>
             <p className="text-blue-800 font-bold">$90.00</p>
+            <a href="#" className="text-red-600 underline font-medium hover:text-teal-500">Shop Now</a>
           </div>
           <div className="bg-white shadow-md rounded-lg p-3 text-center">
             <Image
@@ -42,6 +44,7 @@ const Section5 = () => {
             <h2 className="font-semibold">Cantilever Chair</h2>
             <p className="text-gray-500 line-through">$100.00</p>
             <p className="text-blue-800 font-bold">$90.00</p>
+            <a href="#" className="text-red-600 underline font-medium hover:text-teal-500">Shop Now</a>
           </div>
           <div className="bg-white shadow-md rounded-lg p-3 text-center">
             <Image
@@ -54,13 +57,14 @@ const Section5 = () => {
             <h2 className="font-semibold">Cantilever Chair</h2>
             <p className="text-gray-500 line-through">$100.00</p>
             <p className="text-blue-800 font-bold">$90.00</p>
+            <a href="#" className="text-red-600 underline font-medium hover:text-teal-500">Shop Now</a>
           </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="bg-pink-50 p-6 rounded-lg shadow-md">
             <p className="text-xl font-semibold text-blue-800 mb-2">23% off in all products</p>
-            <a href="#" className="text-red-600 underline font-medium">Shop Now</a>
+            <a href="#" className="text-red-600 underline font-medium hover:text-blue-800">Shop Now</a>
             <Image
               src="/images/file-five/promo1.png"
               alt="Promo Image"
@@ -71,7 +75,7 @@ const Section5 = () => {
           </div>
           <div className="bg-blue-50 p-6 rounded-lg shadow-md">
             <p className="text-xl font-semibold text-red-600 mb-2">23% off in all products</p>
-            <a href="#" className="text-blue-800 underline font-medium">View Collection</a>
+            <a href="#" className="text-blue-800 underline font-medium hover:text-red-600">View Collection</a>
             <Image
               src="/images/file-five/promo2.png"
               alt="Promo Image"
