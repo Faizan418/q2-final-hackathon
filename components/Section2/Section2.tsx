@@ -6,7 +6,7 @@ const Section2 = () => {
     <div className={styles._main_containar}>
       <div className={styles._containar}>
         <div className={styles._main_heading_div}>
-          <h1 className={styles._main_heading1}>Featured Products</h1>
+          <h1 className={styles._main_heading1}>Latest Products</h1>
         </div>
 
         <div className={styles._grid}>
