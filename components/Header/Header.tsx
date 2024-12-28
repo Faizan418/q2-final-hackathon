@@ -10,7 +10,7 @@ const Header = () => {
             src={"/images/file-header/img-two.png"}
             alt="lamp"
             height={100}
-            width={300}
+            width={250}
           />
         </div>
 
@@ -37,7 +37,7 @@ const Header = () => {
             src={"/images/file-header/img-one.png"}
             alt="lamp"
             height={100}
-            width={500}
+            width={450}
           />
         </div>
       </div>

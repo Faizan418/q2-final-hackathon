@@ -47,6 +47,12 @@
   margin-bottom: 10px;
   justify-items: center;
 }
+.img:hover{
+  transform: scale(1.2);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  /* background-color: rgb(255, 255, 255); */
+}
 
 ._card_dec_name {
   color: rgb(1, 1, 167);

@@ -17,6 +17,7 @@ const Section2 = () => {
                 alt="Comfort Handly Craft"
                 width={180}
                 height={100}
+                className={styles.img}
               />
             </div>
             <div className={styles._card_dec_box}>
@@ -34,6 +35,7 @@ const Section2 = () => {
                 alt="ComfortHandlyCraft"
                 width={180}
                 height={100}
+                className={styles.img}
               />
             </div>
             <div className={styles._card_dec_box}>
@@ -51,6 +53,7 @@ const Section2 = () => {
                 alt="ComfortHandlyCraft"
                 width={180}
                 height={100}
+                className={styles.img}
               />
             </div>
             <div className={styles._card_dec_box}>
@@ -68,6 +71,7 @@ const Section2 = () => {
                 alt="ComfortHandlyCraft"
                 width={180}
                 height={100}
+                className={styles.img}
               />
             </div>
             <div className={styles._card_dec_box}>
@@ -85,6 +89,7 @@ const Section2 = () => {
                 alt="ComfortHandlyCraft"
                 width={220}
                 height={100}
+                className={styles.img}
               />
             </div>
             <div className={styles._card_dec_box}>
@@ -102,6 +107,7 @@ const Section2 = () => {
                 alt="ComfortHandlyCraft"
                 width={230}
                 height={100}
+                className={styles.img}
               />
             </div>
             <div className={styles._card_dec_box}>

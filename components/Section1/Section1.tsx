@@ -17,6 +17,7 @@ const Section1 = () => {
                 alt="CantileverChair"
                 width={180}
                 height={100}
+                className={styles.img}
               />
             </div>
             <div className={styles._card_dec_box}>
@@ -33,6 +34,7 @@ const Section1 = () => {
                 alt="CantileverChair"
                 width={160}
                 height={100}
+                className={styles.img}
               />
             </div>
             <div className={styles._card_dec_box}>
@@ -49,6 +51,7 @@ const Section1 = () => {
                 alt="CantileverChair"
                 width={180}
                 height={100}
+                className={styles.img}
               />
             </div>
             <div className={styles._card_dec_box}>
@@ -63,8 +66,9 @@ const Section1 = () => {
               <Image
                 src="/images/file-one/CantileverChair4.png"
                 alt="CantileverChair"
-                width={180}
+                width={250}
                 height={100}
+                 className={styles.img}
               />
             </div>
             <div className={styles._card_dec_box}>

@@ -13,15 +13,24 @@
 .left_img_div {
   display: flex;
   justify-content: start;
+  /* border: 1px solid black; */
+  padding-left: 50px;
 }
 .right_img_div {
   display: flex;
   justify-content: end;
+  /* border: 1px solid black; */
+  padding-right: 40px;
 }
 .center_div {
+  /* border: 1px solid black; */
   position: absolute;
   z-index: 999;
   padding-left: 250px;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* align-content: center; */
+  /* text-align: center; */
   width: 80%;
 }
 
@@ -58,10 +67,23 @@
   .center_div {
     position: relative;
     padding-left: 40px;
+    width: 100%;
+    justify-content: center;
+  }
+  .left_img_div{
+    width: 100%;
+    justify-content: center;
+    padding-left: 10px;
+  }
+  .right_img_div{
+    width: 100%;
+    justify-content: center;
+    padding-right: 10px;
   }
   .main_containar {
     padding: 0px 30px;
   }
+
 }
 @media (max-width: 500px) {
   .main_containar {

@@ -46,6 +46,12 @@
     margin-bottom: 10px;
     justify-items: center;
   }
+  .img:hover{
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+
+  }
   ._card_dec_box{
     display: flex;
     justify-content: space-between;

@@ -13,7 +13,7 @@ const Section5 = () => {
               alt="Cantilever Chair"
               width={150}
               height={100}
-              className="mx-auto mb-4"
+              className="mx-auto mb-4 hover:scale-125"
             />
             <h2 className="font-semibold">Cantilever Chair</h2>
             <p className="text-gray-500 line-through">$100.00</p>
@@ -26,7 +26,7 @@ const Section5 = () => {
               alt="Cantilever Chair"
               width={150}
               height={100}
-              className="mx-auto mb-4"
+              className="mx-auto mb-4 hover:scale-125"
             />
             <h2 className="font-semibold">Cantilever Chair</h2>
             <p className="text-gray-500 line-through">$100.00</p>
@@ -39,7 +39,7 @@ const Section5 = () => {
               alt="Cantilever Chair"
               width={150}
               height={100}
-              className="mx-auto mb-4"
+              className="mx-auto mb-4 hover:scale-125"
             />
             <h2 className="font-semibold">Cantilever Chair</h2>
             <p className="text-gray-500 line-through">$100.00</p>
@@ -50,9 +50,9 @@ const Section5 = () => {
             <Image
               src="/images/file-five/CantileverChair4.png"
               alt="Cantilever Chair"
-              width={150}
+              width={170}
               height={100}
-              className="mx-auto mb-4"
+              className="mx-auto mb-4 hover:scale-125"
             />
             <h2 className="font-semibold">Cantilever Chair</h2>
             <p className="text-gray-500 line-through">$100.00</p>
@@ -75,7 +75,7 @@ const Section5 = () => {
           </div>
           <div className="bg-blue-50 p-6 rounded-lg shadow-md">
             <p className="text-xl font-semibold text-red-600 mb-2">23% off in all products</p>
-            <a href="#" className="text-blue-800 underline font-medium hover:text-red-600">View Collection</a>
+            <a href="#" className="text-blue-800 underline font-medium hover:text-red-600 ">View Collection</a>
             <Image
               src="/images/file-five/promo2.png"
               alt="Promo Image"
